@@ -8,7 +8,7 @@ const App = () => {
     <>
       <ToastContainer />
       <Navigation />
-      <main className=" bg-gradient-to-b from-[#fb7185] via-[#a21caf] to-[#6366f1] w-full h-[calc(100vh-70px)] ">
+      <main className="bg-gradient-to-b from-[#fb7185] via-[#a21caf] to-[#6366f1] w-full h-[calc(100vh-70px)] ">
         <Outlet />
       </main>
     </>
