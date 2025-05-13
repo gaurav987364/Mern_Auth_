@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { useEffect, useState } from 'react'
-import { useDeleteUsersMutation, useGetUsersQuery, useUpdateUserMutation } from '../../store/api/UserApiSlice'
+import React, { useEffect, useState } from 'react';
+import { useDeleteUsersMutation, useGetUsersQuery, useUpdateUserMutation } from '../../store/api/UserApiSlice';
 import { FaCheck, FaEdit, FaSpinner, FaTrashAlt } from 'react-icons/fa';
 import { IoMdClose } from 'react-icons/io';
 import { toast } from 'react-toastify';
