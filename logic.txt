@@ -26,4 +26,4 @@ Note: "backend": "nodemon backend/server.js"
 3. setup the postman application
 4. download extension mongoDB for vs code and connect it with uri or you want with.
 
-5.setup redux for frontend
+5.setup redux for frontend;;;
