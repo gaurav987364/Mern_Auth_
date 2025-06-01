@@ -32,11 +32,11 @@ const UserList:React.FC = () => {
     };
 
     const deleteHandler = async (id:string)=>{
-        if(window.confirm('Are you sure you want to delete')){
+        if(window.confirm('Are you sure you want to delete🤔')){
             try {
                 await deleteUser(id);
             } catch (error) {
-                toast.error("Error deleting user.")
+                toast.error("Error deleting user.😲")
                 console.error(error);
             }
         }
