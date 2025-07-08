@@ -57,7 +57,7 @@ const UserList:React.FC = () => {
   <div className="flex items-center justify-center min-h-screen bg-gray-100 p-6">
       <div className="w-full max-w-3xl shadow-xl rounded-2xl bg-white p-8">
         <div className="text-center mb-6">
-          <h2 className="text-3xl font-semibold text-gray-900">User List</h2>
+          <h2 className="text-3xl font-semibold text-gray-900">User List:</h2>
         </div>
         {isLoading ? (
           <div className="flex justify-center py-4">
