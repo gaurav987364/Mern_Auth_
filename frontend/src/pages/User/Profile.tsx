@@ -42,7 +42,6 @@ const Profile = () => {
     }
   };
 
-
   useEffect(()=>{
     setUserName(userInfo.username);
     setEmail(userInfo.email);
