@@ -89,7 +89,7 @@ const Login = () => {
             {isLoading ? (
                 <FaSpinner size={20} className=" animate-spin"/>
             ) : (
-                <span>Login</span>
+                <span>Login🔐</span>
             )}
           </button>
         </form>
