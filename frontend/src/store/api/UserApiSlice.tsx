@@ -60,7 +60,7 @@ export const userApiSlice = apiSlice.injectEndpoints({
             invalidatesTags:["User"],
         })
     }),
-})
+});
 
 export const { 
     useLoginMutation, 
