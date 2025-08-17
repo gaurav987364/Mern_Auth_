@@ -130,7 +130,7 @@ const Register = () => {
               {isLoading ? (
                   <FaSpinner size={20} className=" animate-spin"/>
               ) : (
-                  <span>Sign Up</span>
+                  <span>Sign Up 🔏</span>
               )}
             </button>
           </form>
