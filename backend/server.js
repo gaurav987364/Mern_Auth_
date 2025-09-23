@@ -11,7 +11,7 @@ import { connectDB } from "./config/db.js";
 //import .env items to whole application
 dotenv.config();
 
-//connect to port
+// connect to port
 const port = process.env.PORT || 4000;
 
 //connect to MongoDB database
