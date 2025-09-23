@@ -17,7 +17,7 @@ const port = process.env.PORT || 4000;
 // connect to MongoDB database
 connectDB();
 
-//create server instance
+// create server instance
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
