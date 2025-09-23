@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
-//serve res to routes
+// serve res to routes
 app.use("/api/users", userRoute);
 //listen on port
 app.listen(port, () => {
