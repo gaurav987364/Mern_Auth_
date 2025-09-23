@@ -5,7 +5,7 @@ import cookieParser from "cookie-parser";
 
 // import routes
 import userRoute from "./routes/userRoute.js";
-//utils
+// utils
 import { connectDB } from "./config/db.js";
 
 //import .env items to whole application
