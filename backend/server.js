@@ -3,7 +3,7 @@ import path from "path";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
 
-//import routes
+// import routes
 import userRoute from "./routes/userRoute.js";
 //utils
 import { connectDB } from "./config/db.js";
