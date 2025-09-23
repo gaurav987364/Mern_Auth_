@@ -14,7 +14,7 @@ dotenv.config();
 // connect to port
 const port = process.env.PORT || 4000;
 
-//connect to MongoDB database
+// connect to MongoDB database
 connectDB();
 
 //create server instance
