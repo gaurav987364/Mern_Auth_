@@ -13,7 +13,8 @@ Note: "backend": "nodemon backend/server.js"
       "dev": "concurrently \"npm run backend\" \"npm run frontend\""
 
 
-2.create all folder and main server.js file inside the backend:[
+2.create all folder and main server.js file inside the backend:-
+[
     1.utils // for helper function
     2.routes //for routes
     3.controllers //for main login,register etc function
