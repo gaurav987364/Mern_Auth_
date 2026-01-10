@@ -2,7 +2,7 @@ steps:->
 1.after mke two folders make sure to npm init -y in the root folder not in any of to folder we do but here we not because we want to use concurrently package so that to run both frontend and backend from one script.
 
 Make folder:[
-    1.backend,
+    1.)backend,
     2.frontend,
     install all backend package in the root folder also
 ];
