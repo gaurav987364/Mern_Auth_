@@ -3,7 +3,7 @@ steps:->
 
 Make folder:-[
     1.backend,
-    2.)frontend,
+    2.frontend,
     install all backend package in the root folder also
 ];
 
